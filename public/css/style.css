@@ -1,0 +1,672 @@
+* {
+    box-sizing: border-box;
+}
+/* scrool menu */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+
+.myCount {
+    background-color: #20273f;
+
+}
+
+.icon_menu>a {
+    padding: 1px 5px;
+    background-color: #2b3249;
+}
+
+.facebook:hover {
+    background-color: #1b74e4;
+
+}
+
+.navbar-brand:hover i {
+    color: white;
+
+}
+
+.twitter:hover {
+    background-color: #1da1f2;
+}
+
+.instagram:hover {
+    background-color: #868d92;
+}
+
+.linkedin:hover {
+    background-color: #0073b2;
+}
+
+.youtube:hover {
+    background-color: #f21d1d;
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.seach {
+    background-color: #504f4f;
+
+}
+
+.seach:hover {
+    background-color: #ff0000;
+
+}
+
+.seach:hover i {
+    color: #ffffff;
+
+}
+
+.seach>i {
+    font-size: 20px;
+}
+
+/* phan logo menu */
+.logo>.nav-item>a {
+
+    margin-left: 10px;
+}
+
+.logo>.nav-item {
+    transition: background-color 1s inherit;
+
+}
+
+.logo>.nav-item:hover {
+    background-color: #504f4f;
+
+}
+
+
+
+
+.logo>.nav-item {
+
+    padding: 25px 0px;
+
+}
+
+li {
+    list-style: none;
+
+}
+
+#submenu>li>a {
+
+    text-decoration: none;
+
+}
+
+
+
+/* phần drop */
+
+.drop_menu {
+    display: none;
+
+
+}
+
+.drop_menu ul li a {
+    text-decoration: none;
+    color: #504f4f;
+    margin-top: 30px;
+}
+
+.drop_menu ul li {
+    margin-top: 20px;
+}
+
+.logo li:hover .drop_menu {
+    display: block;
+    position: absolute;
+    background: #ffffff;
+    color: rgb(233, 231, 231);
+    margin-top: 25px;
+    width: 150px;
+    z-index: 20;
+
+
+}
+
+/* phần banner */
+
+.banner {
+    background-image: url(../img/bg-banner.jpg);
+    min-height: 600px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+.banner img {
+    float: right;
+    width: 600px;
+    margin-right: 200px;
+}
+
+.powwer {
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+/* phần 01 02 03  */
+.number {
+    font-size: 40px;
+    font-weight: bold;
+    color: #504f4f;
+}
+
+.title {
+    font-weight: bold;
+    color: #504f4f;
+}
+
+.title:hover {
+    color: white;
+}
+
+.border_bootom {
+    width: 100%;
+    height: 10px;
+    background-color: rgb(46, 44, 44);
+
+}
+
+.hover_ngang {
+    width: 0px;
+    height: 10px;
+    background-color: rgb(167, 13, 13);
+    transition: width 1s;
+}
+
+.hover_row:hover .hover_ngang {
+    width: 350px;
+}
+
+.banner_number {
+    position: relative;
+    top: -40px;
+}
+
+@media(max-width:768px) {
+    .banner_number {
+        display: none;
+    }
+}
+
+/* phần bảng xếp hạng */
+.border_nextMath {
+    border: 1px solid dimgrey;
+
+
+}
+
+.bangxephang {
+    min-height: 700px;
+    padding-top: 50px;
+}
+
+@media (max-width:768px) {
+    .padding-mobile {
+        color: red;
+        padding: 0;
+    }
+}
+
+/* tran doi dau */
+.nameTeam {
+    font-size: 22px;
+}
+
+.dis_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coming_soon {
+    padding: 10px;
+}
+
+.number_time {
+    font-size: 20px;
+}
+
+/*  phần tách đôi trong lịch đối đâu 3 trận nyk với book tecket*/
+.nyk,
+.book {
+    width: 60%;
+    border-right: 1px solid darkgrey;
+    text-align: center;
+    color: #b6afaf;
+    font-size: 12px;
+}
+
+.nyk:hover,
+.book:hover {
+    background-color: #f21d1d;
+    color: white;
+    transition: all .5s;
+}
+
+/* BANG DIEM  */
+thead {
+    background-color: #f21d1d;
+    color: white;
+}
+
+/* bang playyour */
+@media (max-width:768px) {
+    .playyour>img {
+        width: 350px;
+
+    }
+}
+
+/* phan new & media  */
+
+.wrapp_new {
+    min-height: 800px;
+    margin-top: 100px;
+}
+
+.content_new h2 {
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.user {
+    color: #f21d1d;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+}
+
+.date {
+    color: #aeb3c1;
+}
+
+/* hover */
+.hoveHinh1:hover .link {
+    display: block;
+}
+
+.hoveHinh1:hover .link_icon {
+    left: 45%;
+
+}
+
+.hoveHinh1:hover .Draymond {
+    color: #f21d1d !important;
+}
+
+.hoveHinh1:hover .Draymond {
+    color: #f21d1d !important;
+}
+
+.hoveHinh1:hover .share {
+    color: #f21d1d !important;
+}
+
+.hoveHinh1:hover .more {
+    transition: all 1s;
+    background-color: #f21d1d !important;
+    color: white;
+}
+
+/* hinh 2  */
+
+.link {
+    position: absolute;
+    width: 95%;
+    height: 285px;
+    opacity: .5;
+    display: none;
+
+}
+
+.link_icon {
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    left: 0%;
+
+
+}
+
+/* zooom backham */
+.hoveHinhBeckham:hover {
+    transition: all 1s;
+    transform: scale(1.1);
+}
+
+/* hover beckhamm */
+.hoveHinhBeckham:hover .link {
+    display: block;
+}
+
+.hoveHinhBeckham:hover .link_icon {
+    left: 45%;
+
+}
+
+.hoveHinhBeckham:hover .Draymond {
+    color: #f21d1d !important;
+}
+
+.hoveHinhBeckham:hover .Draymond {
+    color: #f21d1d !important;
+}
+
+.hoveHhoveHinhBeckhaminh1:hover .share {
+    color: #f21d1d !important;
+}
+
+.hoveHinhBeckham:hover .more {
+    transition: all 1s;
+    background-color: #f21d1d !important;
+    color: white;
+}
+
+/* phan thu mon vandersa  */
+
+.border_vandersa {
+    border: 1px solid red;
+    min-height: 400px;
+
+}
+
+.play {
+    width: 46px;
+    height: 46px;
+    display: inline-block;
+    background: #cb112e;
+    text-align: center;
+    line-height: 46px;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 14px;
+    position: relative;
+    top: 270px;
+    left: 30px;
+    margin-right: 20px;
+}
+
+.no_gold {
+    display: inline-block;
+
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+    top: 260px;
+    left: -60px;
+    margin-right: 20px;
+}
+
+.time_vandersa {
+    width: 70px;
+    height: 30px;
+    background-color: rgb(35, 40, 49);
+    margin-left: 83%;
+    margin-top: 20px;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    color: white;
+    text-align: center;
+}
+
+.hoveVandersa:hover {
+    transition: all 1s;
+    transform: scale(1.1);
+}
+
+/* // spansit thi 2 hinh con lai none  */
+@media (max-width:768px) {
+    .none_vd1 {
+        display: none;
+    }
+}
+
+/* css phan cac cau thu bong ro basketball  */
+
+.basketball {
+
+    min-height: 500px;
+    background-size: cover;
+}
+
+.bocuc {
+    width: 1400px;
+    margin: 0px auto;
+    padding: 0;
+}
+
+.full:hover {
+    background-color: #cb112e !important;
+    color: white !important;
+}
+
+.date1 {
+    color: #b6afaf;
+    border-left: 1px solid;
+}
+
+/* hover thay doi teaxt cho bong ro  */
+
+.bongroHover:hover .Geryson_Ramsy {
+    color: yellow !important;
+    transition: all 1s;
+}
+
+.bongroHover:hover .league_captian {
+    color: #cb112e !important;
+    transition: all 1s;
+
+}
+
+.bongroHover:hover .player_biography {
+    color: yellow !important;
+    transition: all 1s;
+
+}
+
+.bongroHover:hover .folow {
+    color: rgb(0, 0, 0) !important;
+    background-color: yellow !important;
+    transition: all 1s;
+
+}
+
+/* phan css cua productt */
+.border_product {
+    border: 5px solid rgb(228, 222, 222);
+}
+
+.hover_row_product:hover .s {
+    background-color: #cb112e;
+    color: white !important;
+    transition: all 2s;
+
+}
+
+.hover_row_product:hover .sport {
+    color: #cb112e;
+    transition: all 0.5s;
+
+}
+
+.opacity_link {
+    width: 100%;
+    background-color: #000000;
+    height: 0px;
+    position: absolute;
+    opacity: .6;
+}
+
+.hover_row_product:hover .opacity_link {
+
+    height: 320px;
+    transition: all 0.5s;
+
+}
+
+.link_icon {
+    display: none;
+
+}
+
+.hover_row_product:hover .link_icon {
+    left: 45%;
+    display: block;
+    transition: all 0.5s;
+
+
+}
+
+.hover_row_product:hover .border_product {
+
+    border: 5px solid rgb(128, 125, 125);
+
+
+}
+
+/* phan css cua league galley */
+.text_quelly {
+    display: inline-block;
+
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+    top: 260px;
+    left: 20px;
+    margin-right: 20px;
+}
+
+.play_and_img {
+    width: 46px;
+    height: 46px;
+    display: inline-block;
+    border: 2px solid gainsboro;
+    text-align: center;
+    line-height: 46px;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 14px;
+    position: relative;
+    top: 270px;
+    left: 30px;
+    margin-right: 20px;
+}
+
+.top_img_and_video {
+    width: 40px;
+    height: 30px;
+    background-color: rgb(203, 42, 42);
+    margin-left: 10%;
+    margin-top: 20px;
+
+
+    color: white;
+    text-align: center;
+}
+/* logo_daiDien */
+
+
+
+/* phan recent */
+.border_recent {
+    background-color: #868d92;
+    min-height: 300px;
+    background: rgba(146, 138, 138, 0.5);
+    border-radius: 10px;
+
+}
+
+.gerrly {
+    width: 30px;
+    height: 30px;
+   border: 2px solid rgb(255, 255, 255);
+    margin-left: 10%;
+   border-radius: 50%;
+    color: white;
+    text-align: center;
+    
+}
+.ben_root
+{
+    color: #fff;
+ 
+}
+.text_gerrly
+{
+    color: white;
+    font-style: italic;
+}
+.gerrly_stwiter
+{
+    opacity: .3;
+    font-size: 40px;
+}
+.hover_ben_root:hover .border_recent
+{
+background-color: #56b5ff;
+}
+
+/* phan css cua top_copyRight */
+
+.top_copyRight
+{
+    background-color: #171e36;
+    min-height: 600px;
+}
+.gray{
+    color: rgb(139, 134, 134);
+}
+.about_soccer
+{
+    color: white;
+}
+.thanh_ngang1
+{
+    content: ' ';
+    width: 50px;
+    height: 3px;
+    background-color: #ef0125;
+}
+.thanh_ngang2
+{
+    content: ' ';
+    width: 30px;
+    height: 3px;
+    background-color: #ef0125;
+}
+.hover_muiTen>p:hover{
+    color: #c4c8cc;
+}
+/* // phan input  */
+input {
+    width: 100%;
+    height: 40px;
+    background-color: #171e36;
+    border: 2px solid gray;
+}
+
+/* phan copyRight */
+.copyRight>p
+{
+margin: 0px 10px;
+}
